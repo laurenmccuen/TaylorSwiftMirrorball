@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -60,7 +61,6 @@ public class Mirrorball {
         } else if (randNumber == 4) {
             eraAlbum = "1989";
             eraLyric =
-                    "Or with a nasty scar\n" +
                     "Got a long list of ex-lovers\n" +
                     "They'll tell you I'm insane\n" +
                     "But I've got a blank space, baby\n" +
@@ -98,8 +98,6 @@ public class Mirrorball {
         } else if (randNumber == 9) {
             eraAlbum = "Midnights";
             eraLyric =
-                    "And I keep my side of the street clean\n" +
-                    "You wouldn't know what I mean\n" +
                     "'Cause karma is my boyfriend\n" +
                     "Karma is a god\n" +
                     "Karma is the breeze in my hair on the weekend\n" +
